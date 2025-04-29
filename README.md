@@ -9,24 +9,4 @@ This is a simple Angular 17+ project to showcase employee listing and detail vie
 - Mocked service layer using RxJS
 - Ready for Azure deployment
 
-## How to Run
-
-Install dependencies:
-```bash
-npm install
-```
-
-Run locally:
-```bash
-ng serve
-```
-
-Build for production:
-```bash
-ng build --configuration production
-```
-
-Deploy the `dist/EmployeeDirectoryAngularAzure` folder to Azure.
-
----
 **Created by Venu Gopal**
