@@ -1,0 +1,7 @@
+
+<h2>Employee List</h2>
+<ul>
+  <li *ngFor="let employee of employees" (click)="viewDetails(employee.id)" style="cursor:pointer">
+    {{employee.name}} - {{employee.role}}
+  </li>
+</ul>
